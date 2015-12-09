@@ -126,9 +126,6 @@ public class BasicTest extends UnitTest {
 	    assertEquals(3, frontPost.comments.size());
 	    assertEquals(4, Comment.count());
 	    
-	 // Post a new comment
-	    frontPost.addComment("Jim", "Hello guys");
-	    assertEquals(4, frontPost.comments.size());
-	    assertEquals(5, Comment.count());
+
 	}
 }
